@@ -1,0 +1,120 @@
+* {
+  font-family: Roboto;
+}
+
+.tasks-app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+}
+
+.main-heading {
+  margin-top: 50px;
+  color: #171f46;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 36px;
+  }
+}
+
+.app-responsive-container {
+  width: 90%;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content {
+  width: 90%;
+}
+
+.input-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #b5b7c4;
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #94a3b8;
+  border-radius: 2px;
+  height: 28px;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.task-button {
+  background-color: #8b5cf6;
+  color: #cbd2d9;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.task-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.tasks-img {
+  width: 50%;
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .tasks-img {
+    height: 350px;
+  }
+}
+
+.separator {
+  border: 1px solid #94a3b8;
+  width: 90%;
+  margin: 20px 0;
+}
+
+.title-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.tasks {
+  font-size: 20px;
+  font-weight: bold;
+  color: #171f46;
+}
+
+.tasks-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.input-field-container {
+  margin-bottom: 5px;
+}

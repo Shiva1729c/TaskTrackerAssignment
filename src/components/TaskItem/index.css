@@ -1,0 +1,103 @@
+* {
+  font-family: Roboto;
+}
+
+.task-item {
+  display: flex;
+  border: 1px solid #b5b7c4;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 90px;
+  width: 220px;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.task-description {
+  font-size: 12px;
+  color: #b5b7c4;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.task-date {
+  font-size: 12px;
+  color: #b5b7c4;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: auto;
+}
+.edit-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.name-trash-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+}
+.popup-container {
+  background-color: #ebebeb;
+  width: 320px;
+  height: 160px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: Column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.instruction {
+  font-family: 'Roboto';
+  color: #00306e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cancel-button {
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: transparent;
+  color: #616e7c;
+  margin-right: 5px;
+}
+.confirm-button {
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+}
